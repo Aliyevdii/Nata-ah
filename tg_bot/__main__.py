@@ -18,18 +18,16 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Salam {}, mənim adım {}! Mənim haqqımda məlumat öyrənmək üçün /help yaz... 
+Salam {}, mənim adım {}! Mənim haqqımda məlumat öyrənmək üçün /help yazın... 
 
 Mən qrup idarə edicisiyəm və [sahibim budur](tg://user?id={}).
 
-Mənim yeniləmələrim haqqında - @MarieChechi & və dəstək qrupumuz olan @LamiyaSupport -a qatıla bilərsiz.
+Mənim yeniləmələrim haqqında - @NEXUS_MMC & və dəstək qrupumuz olan @iron_Blood_Gurup -a qatıla bilərsiz.
 
-Əgər sizində belə botunuzun olmasın istəyirsizsə bu botu [Heroku hesabınıza deploy edərək](https://heroku.com/deploy?template=https://github.com/ValiyevAli/LamiyaBOT),
-mənim kimi klon bot hazırlaya bilərsiz..
+Əgər sizinSöhbət Gurupmuza Sizidə Dəvət Edirik](https/t.me/iron_Blood_Gurup),
 
 Daha çox məlumat üçün /help yazın...
 
-**Diqqət!!! Kodlarda olan hər hansı dəyişiklik lisenziyaya uyğun olaraq github-da olmalıdır.**
 
 """
 
@@ -40,7 +38,7 @@ Salam! mənim adım *{}*.
 *Əsas* komandalar:
  - /start: Botu başlat...
  - /help: Kömək....
- - /donate: Pul bağışı etmək üçün link!
+ - /donate: Söhbət Gurupmuz!
  - /settings:
    - ayarladığınız funksiyaları görmək üçün....
    - grup içində:
@@ -49,11 +47,11 @@ Salam! mənim adım *{}*.
 Və:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAşağıdakı bütün ayarlar !,/ işarələri ilə istifadə edilə bilər.\n")
 
-DONATE_STRING = """Heya, glad to hear you want to donate!
-It took lots of work for [my creator](t.me/SonOfLars) to get me to where I am now, and every donation helps \
-motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
-(see his bio!). He's just a poor student, so every little helps!
-There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
+DONATE_STRING = """Hey, ianə vermək istədiyinizi eşitdiyimə şadam!
+Bunun üçün çox iş lazımdı [my creator](t.me/A_l_i_y_e_v_d_i) Məni indi olduğum yerə çatdırmaq üçün və hər bir ianə kömək edir \
+məni daha da yaxşılaşdırmaq üçün onu motivasiya et. Bütün ianə pulları məni qəbul etmək üçün daha yaxşı VPS-ə gedəcək və/yaxud helper \
+(see his bio!). O, sadəcə kasıb tələbədir, ona görə də hər kiçik kömək edir!
+Ona ödəməyin iki yolu var; [Gurupmuz](https/t..me/iron_Blood_Gurup),"""
 
 IMPORTED = {}
 MIGRATEABLE = []
