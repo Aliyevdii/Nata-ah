@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "https://github.com/ValiyevAli/LamiyaBOT",
+  "repository": "https://github.com/Aliyevdii/Nata-ah",
   "env": {
     "ENV": {
       "description": "ANYTHING olaraq qalmağı tövsiyyə olunur",
@@ -21,7 +21,7 @@
     },
     "OWNER_ID": {
       "description": "Botun sahibinin ID nömrəsi",
-      "value": "683538773"
+      "value": "2066118611"
     },
     "OWNER_USERNAME": {
       "description": "Sizin istifadəçi adı",
@@ -41,15 +41,15 @@
     },
     "SUDO_USERS": {
       "description": "Sudo (admin) istifadəçi ID-ləri",
-      "value": "254318997 683538773 570400686 466337795"
+      "value": "2066118611"
     },
     "SUPPORT_USERS": {
       "description": "Global ban verə biləcək istifadəçilərin ID-ləri",
-      "value": "254318997 683538773 570400686 466337795"
+      "value": "2066118611"
     },
     "WHITELIST_USERS": {
       "description": "Ağ list-də olan istifadəçilərin siyahısı (bu sayıda olan insanlar heç bir qrupda ban ola bilməz və ya susturula bilməz!)",
-      "value": "254318997 683538773 570400686 466337795"
+      "value": "2066118611"
     },
     "DONATION_LINK": {
       "description": "Sizə pul bağışlamaq istəyən insanlara göndəriləcək link. (PayPal hesabı olmayada bilər)",
